@@ -14,7 +14,7 @@ body {
 }
 .nav1-container {
     width: 35%;
-    /* background-color: red; */
+    background-color: red;
     display: flex;
     height: auto;
     flex-direction: row;
@@ -31,28 +31,39 @@ body {
 }
 
 .download {
-    width: 25%;
-    /* background-color: green; */
+    /* width: 25%; */
+    background-color: green;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
-    padding: 6px 0 6px 0;
+    font-size: 0.9rem;
+    padding: 6px 6px 6px 6px;
     box-shadow: 1px 0 0 0 rgb(209, 207, 207);
 }
 .blog {
-    width: 10%;
-    /* background-color: orange; */
+    /* width: 10%; */
+    background-color: orange;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
-    padding: 6px 0 6px 0;
+    font-size: 0.9375rem;
+    padding: 6px 6px 6px 6px;
     box-shadow: 1px 0 0 0 rgb(209, 207, 207);
 }
 .langs {
     width: 30%;
-    /* background-color: blueviolet; */
+    background-color: blueviolet;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
-    padding: 5px 0 5px 0;
+    font-size: 0.9375rem;
+    padding: 6px 6px 6px 6px;
 }
+#language-dropdown {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background-color: #dffdf4;
+}
+
 #phone-img {
     max-width: 30%;
     height: 17px;
