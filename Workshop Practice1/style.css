@@ -105,7 +105,7 @@ img {
 /* Section1 */
 
 .section-1 {
-    margin-top: 2em;
+    margin-top: 3em;
 }
 
 .section-1-secondary-container {
@@ -115,11 +115,20 @@ img {
 
 .section-1-contents-div {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 .section-1-img-div {
     width: 50%;
 }
-
+.section-1-contents-div h2 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 3rem;
+    font-weight: 200;
+}
 /* Media Query */
 
 /* nav bar 1 */
