@@ -128,6 +128,29 @@ img {
         sans-serif;
     font-size: 3rem;
     font-weight: 200;
+    width: 60%;
+    margin-bottom: 1em;
+    /* background-color: chartreuse; */
+}
+.section-1-contents-div p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    color: #646464;
+    font-size: 1.25rem;
+    margin-bottom: 4em;
+    /* background-color: blueviolet; */
+}
+.section-1-contents-div button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #00de9a;
+    color: #ffff;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    padding: 1em 2em 1em 2em;
+}
+.section-1-contents-div button:hover {
+    background-color: #61f1c6;
 }
 /* Media Query */
 
@@ -141,6 +164,18 @@ img {
 
     html {
         font-size: 10px;
+    }
+    .section-1-secondary-container {
+        flex-flow: wrap;
+        height: auto;
+    }
+
+    .section-1-contents-div {
+        flex-flow: wrap;
+        height: auto;
+    }
+    #section-1-banner-img {
+        display: none;
     }
 }
 
