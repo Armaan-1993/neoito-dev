@@ -302,6 +302,11 @@ img {
 }
 .section-4-img-div {
     width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.section-4-img-div img {
+    width: 70%;
 }
 .section-4-secondary-contents-div {
     display: flex;
@@ -368,5 +373,9 @@ img {
     }
     html {
         font-size: 10px;
+    }
+    /* Section 4 */
+    .section-4-img-div img {
+        display: none;
     }
 }
