@@ -396,6 +396,11 @@ img {
 
 .section-5 {
     margin-top: 13em;
+    padding-bottom: 11em;
+    /* box-shadow: 10px 10px 0 0 grey; */
+    -webkit-box-shadow: 0 3px 5px -3px #000;
+    -moz-box-shadow: 0 3px 5px -3px #000;
+    box-shadow: 0 3px 5px -3px #000;
 }
 .section-5-secondary-container {
     display: flex;
