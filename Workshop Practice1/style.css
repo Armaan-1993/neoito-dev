@@ -221,9 +221,13 @@ img {
     height: auto;
 }
 .section-3-img-div,
-.section-3-contents-div {
+.section-3-contents-main-div {
     min-width: 200px;
     width: 50%;
+}
+.section-3-contents-main-div {
+    display: flex;
+    justify-content: space-around;
 }
 .section-3-contents-div {
     display: flex;
@@ -237,7 +241,7 @@ img {
     width: 70%;
 }
 .section-3-contents-div div img {
-    width: 3%;
+    width: 5%;
 }
 .section-3-contents-div h2 {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
