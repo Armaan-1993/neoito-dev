@@ -289,7 +289,7 @@ img {
 
 .section-4 {
     margin-top: 8em;
-    background-color: #e7fdf6;
+    background-color: #f1fefa;
 }
 .section-4-secondary-container {
     display: flex;
@@ -304,9 +304,11 @@ img {
     width: 50%;
     display: flex;
     justify-content: flex-end;
+    /* background-color: tomato; */
+    margin-top: 8em;
 }
 .section-4-img-div img {
-    width: 70%;
+    width: 90%;
 }
 .section-4-secondary-contents-div {
     display: flex;
@@ -315,16 +317,74 @@ img {
     flex-flow: wrap;
     height: auto;
 }
-
+.section-4-contents-div h2 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1em;
+    margin-top: 5em;
+}
+.section-4-contents-div p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    color: #646464;
+    font-size: 1.25rem;
+    margin-bottom: 3em;
+}
+.section-4-secondary-contents-div h3 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
 .section-4-secondary-contents-div div:first-child {
     display: flex;
     flex-direction: column;
+    margin-bottom: 3em;
 }
 .section-4-secondary-contents-div div:last-child {
     display: flex;
     flex-direction: column;
 }
+.section-4-secondary-contents-div img {
+    width: 100%;
+}
 
+.section-4-secondary-contents-div div:first-child div {
+    background-color: #e4fbf5;
+    padding: 1.5em;
+    width: 30%;
+}
+.section-4-secondary-contents-div div:last-child div {
+    background-color: #e4fbf5;
+    padding: 1.5em;
+    width: 27%;
+}
+.section-4-secondary-contents-div div:first-child button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #00de9a;
+    font-size: 1.5rem;
+    color: white;
+    padding: 1em 0 1em 0;
+    border: none;
+    border-radius: 7px;
+    width: 80%;
+}
+.section-4-secondary-contents-div div:last-child button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #00de9a;
+    font-size: 1.5rem;
+    color: white;
+    padding: 1em 0 1em 0;
+    border: none;
+    border-radius: 7px;
+    width: 80%;
+}
+.section-4-secondary-contents-div div:first-child p {
+    margin-bottom: 5.2em;
+}
 /* Media Query */
 
 @media screen and (max-width: 500px) {
