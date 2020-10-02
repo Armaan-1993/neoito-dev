@@ -258,18 +258,68 @@ img {
 .section-3-contents-div div p {
     margin-left: 1em;
 }
-.section-3-contents-div div button {
+
+.section-3-know-more-btn-div button {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #00de9a;
-    color: #ffff;
     font-size: 1.5rem;
+    color: white;
+    padding: 0.8em 2em 0.8em 2em;
     border: none;
-    border-radius: 5px;
-    padding: 1em 2em 1em 2em;
+    border-radius: 7px;
 }
-.section-3-contents-div div button:hover {
+.section-3-know-more-btn-div button:hover {
     background-color: #61f1c6;
 }
+
+.section-3-watch-video-btn-div button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffff;
+    font-size: 1.5rem;
+    color: #00de9a;
+    padding: 0.8em 2em 0.8em 2em;
+    border: none;
+    border-radius: 7px;
+}
+.section-3-watch-video-btn-div button:hover {
+    color: #61f1c6;
+}
+
+/* Section 4 */
+
+.section-4 {
+    margin-top: 8em;
+    background-color: #e7fdf6;
+}
+.section-4-secondary-container {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    height: auto;
+}
+.section-4-contents-div {
+    width: 50%;
+}
+.section-4-img-div {
+    width: 50%;
+}
+.section-4-secondary-contents-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-flow: wrap;
+    height: auto;
+}
+
+.section-4-secondary-contents-div div:first-child {
+    display: flex;
+    flex-direction: column;
+}
+.section-4-secondary-contents-div div:last-child {
+    display: flex;
+    flex-direction: column;
+}
+
 /* Media Query */
 
 @media screen and (max-width: 500px) {
