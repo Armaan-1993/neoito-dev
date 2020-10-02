@@ -429,9 +429,18 @@ img {
     font-weight: 600;
     margin-bottom: 1em;
 }
-/* .section-5-secondary-container div div {
-    width: 100%;
-    background-color: tomato;
+.container {
+    position: relative;
+}
+#section-5-chat-image {
+    width: 8%;
+    position: absolute;
+    right: 0.25vw;
+    top: 14.4vw;
+}
+
+/* .section-5-secondary-container div div img {
+    margin-left: 1em;
 } */
 
 /* Section 6 */
