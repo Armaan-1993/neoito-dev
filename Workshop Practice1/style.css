@@ -382,9 +382,56 @@ img {
     border-radius: 7px;
     width: 80%;
 }
+.section-4-secondary-contents-div div:first-child button:hover {
+    background-color: #61f1c6;
+}
+.section-4-secondary-contents-div div:last-child button:hover {
+    background-color: #61f1c6;
+}
 .section-4-secondary-contents-div div:first-child p {
     margin-bottom: 5.2em;
 }
+
+/* Section 5 */
+
+.section-5 {
+    margin-top: 13em;
+}
+.section-5-secondary-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-5-secondary-container div {
+    display: flex;
+    flex-direction: row;
+}
+.section-5-secondary-container h2 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+.section-5-secondary-container p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    color: #646464;
+    font-size: 1.25rem;
+    margin-bottom: 3em;
+}
+.section-5-secondary-container h3 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+/* .section-5-secondary-container div div {
+    width: 100%;
+    background-color: tomato;
+} */
+
 /* Media Query */
 
 @media screen and (max-width: 500px) {
