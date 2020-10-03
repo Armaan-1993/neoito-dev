@@ -236,6 +236,11 @@ img {
 .section-3-img-div img {
     width: 70%;
 }
+.section-3-img-div {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .section-3-contents-div div img {
     width: 5%;
 }
@@ -628,8 +633,14 @@ footer {
         margin-top: 3em;
         background-color: #dffdf4;
         padding: 5em 0 5em 0;
-        margin-bottom: 12em;
+        margin-bottom: 7em;
     }
+    .section-2-contents-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center !important;
+    }
+    .section-2-contents-div p 
 
     /* Section 3 */
     .section-3-img-div,
@@ -649,8 +660,27 @@ footer {
         align-content: center;
         justify-content: center;
     }
-
+    .section-3-img-div {
+        display: flex;
+        justify-content: center;
+    }
+    .section-3-contents-div h2 {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 0.5em;
+    }
+    .section-3-contents-main-div {
+        justify-content: center;
+        align-items: center;
+    }
     /* Section 4 */
+
+    .section-4 {
+        margin-top: 3em;
+        background-color: #f1fefa;
+    }
 
     .section-4-img-div img {
         display: none;
@@ -681,7 +711,20 @@ footer {
         width: 25%;
         position: absolute;
         right: 0.25vw;
-        top: 26.4vw;
+        top: 35.4vw;
+    }
+    .section-5 {
+        margin-top: 6em;
+        padding-bottom: 8em;
+        box-shadow: 0 50px 15px -3px rgb(243, 242, 242);
+    }
+    .section-5-secondary-container h3 {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 1em;
+        margin-top: 2em;
     }
 }
 
@@ -703,5 +746,26 @@ footer {
 
     .section-4-img-div img {
         display: none;
+    }
+
+    /* Section 5 */
+    #section-5-chat-image {
+        width: 25%;
+        position: absolute;
+        right: 0.25vw;
+        top: 35.4vw;
+    }
+    .section-5 {
+        margin-top: 6em;
+        padding-bottom: 8em;
+        box-shadow: 0 50px 15px -3px rgb(243, 242, 242);
+    }
+    .section-5-secondary-container h3 {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 1em;
+        margin-top: 2em;
     }
 }
