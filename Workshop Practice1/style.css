@@ -218,7 +218,7 @@ img {
 }
 .section-3-img-div,
 .section-3-contents-main-div {
-    min-width: 200px;
+    /* min-width: 400px; */
     width: 50%;
 }
 .section-3-contents-main-div {
@@ -589,7 +589,6 @@ footer {
         font-weight: 200;
         width: 100%;
         /* background-color: hotpink; */
-        /* background-color: chartreuse; */
     }
 
     .section-1-secondary-container {
@@ -630,6 +629,80 @@ footer {
         padding: 5em 0 5em 0;
         margin-bottom: 12em;
     }
+
+    /* Section 3 */
+    .section-3-img-div,
+    .section-3-contents-main-div {
+        min-width: 400px;
+        width: 100%;
+    }
+    .section-3-contents-main-div {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .section-3-button-div {
+        margin-top: 4em;
+    }
+
+    /* Section 4 */
+    .section-4-contents-div,
+    .section-4-img-div {
+        min-width: 400px;
+    }
+    .section-4-secondary-container {
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+        height: auto;
+    }
+    .section-4-contents-div {
+        min-width: 300px;
+        width: 100%;
+    }
+    .section-4-secondary-contents-div {
+        display: flex;
+        height: auto;
+    }
+    .section-4-secondary-contents-div div:first-child {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3em;
+        min-width: 500px;
+        height: auto;
+    }
+    .section-4-secondary-contents-div div:last-child {
+        display: flex;
+        flex-direction: column;
+        min-width: 500px;
+        height: auto;
+    }
+    .section-4-img-div {
+        display: flex;
+        flex-flow: wrap;
+        min-width: 500px;
+        height: auto;
+    }
+    .section-4-secondary-contents-div img {
+        width: 10%;
+    }
+
+    .section-4-secondary-contents-div div:first-child div {
+        background-color: #e4fbf5;
+        padding: 1.5em;
+        width: 10%;
+    }
+    .section-4-secondary-contents-div div:last-child div {
+        background-color: #e4fbf5;
+        padding: 1.5em;
+        width: 10%;
+    }
+    .section-4-secondary-contents-div img {
+        width: 10%;
+    }
+
+    /* .section-4-img-div img {
+        display: none;
+    } */
 }
 
 /* nav bar 2 */
@@ -647,7 +720,10 @@ footer {
         font-size: 10px;
     }
     /* Section 4 */
-    .section-4-img-div img {
-        display: none;
+    .section-4-img-div {
+        min-width: 400px;
     }
+    /* .section-4-img-div img {
+        display: none;
+    } */
 }
