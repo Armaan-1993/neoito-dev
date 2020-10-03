@@ -128,7 +128,6 @@ img {
         sans-serif;
     font-size: 3rem;
     font-weight: 200;
-    width: 60%;
     margin-bottom: 1em;
     /* background-color: chartreuse; */
 }
@@ -163,17 +162,14 @@ img {
 }
 .section-2-secondary-container {
     display: flex;
-    flex-wrap: wrap;
-    height: auto;
 }
 .section-2-contents-div,
 .section-2-img-div {
-    min-width: 200px;
+    /* min-width: 300px; */
     width: 50%;
 }
 .section-2-img-div {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .section-2-img-div img {
@@ -555,31 +551,84 @@ footer {
         font-size: 10px;
     }
 
-    /* nav bar 1 */
+    /* Nav bar 1 */
 
     .nav-1-ul {
         flex-flow: wrap;
         height: auto;
     }
+    .nav-1 {
+        display: none;
+    }
+
+    /* Nav Bar 2 */
+
+    .nav-2-secondary-container div img {
+        width: 70%;
+    }
+    #nav-2-search {
+        width: 100%;
+        background-color: #f5f5f5;
+        border: none;
+        border-radius: 5px;
+        margin-top: 2em;
+    }
+    .nav-2-ul ul li form input {
+        width: 100%;
+    }
+    .nav-2-li {
+        display: none;
+    }
 
     /* Section 1 */
+
+    .section-1-contents-div h2 {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+        font-size: 2rem;
+        font-weight: 200;
+        width: 100%;
+        /* background-color: hotpink; */
+        /* background-color: chartreuse; */
+    }
+
     .section-1-secondary-container {
         flex-flow: wrap;
         height: auto;
+        min-width: 600px;
     }
 
     .section-1-contents-div {
         flex-flow: wrap;
         height: auto;
     }
-    /* #section-1-banner-img {
+    #section-1-banner-img {
         display: none;
-    } */
+    }
+    .section-1-contents-div {
+        justify-content: flex-start;
+    }
 
     /* Section 2 */
     .section-2-secondary-container {
-        flex-flow: wrap;
+        display: flex;
+        flex-wrap: wrap;
         height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-2-contents-div,
+    .section-2-img-div {
+        min-width: 300px;
+    }
+    .section-2-img-div {
+        margin-top: 4em;
+    }
+    .section-2 {
+        margin-top: 3em;
+        background-color: #dffdf4;
+        padding: 5em 0 5em 0;
+        margin-bottom: 12em;
     }
 }
 
