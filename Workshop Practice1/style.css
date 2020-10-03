@@ -101,6 +101,11 @@ img {
 .nav-2-ul li:last-child a {
     font-weight: 700;
 }
+/* Hamburger Menu */
+
+.nav-2-hamburger-menu {
+    display: none;
+}
 
 /* Section1 */
 
@@ -583,6 +588,64 @@ footer {
     }
     .nav-2-li {
         display: none;
+    }
+
+    /* Hamburger Menu */
+
+    .nav-2-hamburger-menu {
+        display: block;
+    }
+    .nav-2-logo-div {
+        display: none;
+    }
+
+    /* Style the navigation menu */
+    .topnav {
+        overflow: hidden;
+        background-color: white;
+        position: relative;
+    }
+    .inside-links a {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+        font-size: 1.5rem !important;
+    }
+    .nav-2-img-and-hamburger-menu {
+        width: 100%;
+    }
+
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .topnav #myLinks {
+        display: none;
+    }
+
+    /* Style navigation menu links */
+    .topnav a {
+        color: black;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 3rem;
+        display: block;
+    }
+
+    /* Style the hamburger menu */
+    .topnav a.icon {
+        background: white;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    /* Add a grey background color on mouse-over */
+    /* .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    } */
+
+    /* Style the active link (or home/logo) */
+    .active {
+        background-color: #ffff;
+        color: white;
     }
 
     /* Section 1 */

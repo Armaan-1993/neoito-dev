@@ -5,6 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Neoito Funds</title>
         <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
     </head>
     <body>
         <!-- Nav bar 1 -->
@@ -34,7 +38,34 @@
         <nav class="nav-2">
             <div class="container">
                 <div class="nav-2-secondary-container">
-                    <div><img src="img/logo.svg" alt="" /></div>
+                    <div class="nav-2-img-and-hamburger-menu">
+                        <img src="img/logo.svg" alt="" class="nav-2-logo-div" />
+
+                        <!-- Hamburger Menu -->
+                        <div class="nav-2-hamburger-menu">
+                            <!-- Top Navigation Menu -->
+                            <div class="topnav">
+                                <a href="#home" class="active"
+                                    ><img src="img/logo.svg" alt=""
+                                /></a>
+                                <!-- Navigation links (hidden by default) -->
+                                <div id="myLinks" class="inside-links">
+                                    <a href="#">Learn with Fund Guru</a>
+                                    <a href="#">Explore Funds</a>
+                                    <a href="#">Ask the Expert</a>
+                                    <a href="#">Login/Register</a>
+                                </div>
+                                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                                <a
+                                    href="javascript:void(0);"
+                                    class="icon"
+                                    onclick="myFunction()"
+                                >
+                                    <i class="fa fa-bars"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div class = "nav-2-ul-div">
                     <ul class="nav-2-ul">
                         <li>
                             <form action="">
