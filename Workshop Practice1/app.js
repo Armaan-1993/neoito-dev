@@ -7,3 +7,34 @@ function myFunction() {
         x.style.display = "block";
     }
 }
+
+function quickLinksFunction() {
+    var x = document.getElementById("section-6-contents-div-links1");
+    let y = document.getElementById("section-6-topfunded-img");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+        y.style.display = "block";
+    } else {
+        x.style.display = "block";
+        y.style.display = "none";
+    }
+}
+
+function TopFundedFunction() {
+    var x = document.getElementById("section-6-contents-div-links2");
+    let y = document.getElementById("section-6-topfunded-img");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
+
+// function ResourcesFunction() {
+//     var x = document.getElementById("section-6-contents-div-links2");
+//     if (x.style.display === "block") {
+//         x.style.display = "none";
+//     } else {
+//         x.style.display = "block";
+//     }
+// }
