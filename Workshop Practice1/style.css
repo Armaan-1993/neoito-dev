@@ -522,6 +522,9 @@ body {
     /* background-color: tomato; */
     display: none;
 }
+.section-6-mobile-view-section {
+    display: none;
+}
 
 /* Footer */
 
@@ -803,10 +806,19 @@ footer {
     }
 
     /* Section 6 */
+    .section-6-mobile-view-section {
+        display: block;
+    }
+    .section-6-logo-mobile-div {
+        margin-bottom: 2em;
+    }
+    .section-6-logo-mobile-div img {
+        width: 50%;
+    }
 
     .section-6-secondary-container-mobile {
         display: block;
-        background-color: tomato;
+        /* background-color: tomato; */
     }
     .section-6-secondary-container {
         display: none;
@@ -814,50 +826,93 @@ footer {
     .section-6-secondary-container-mobile #section-6-contents-div-links {
         display: none;
     }
-
-    /* Style navigation menu links */
     .section-6-secondary-container-mobile a {
-        color: white;
-        padding: 14px 16px;
+        color: black;
+        padding: 1em 1.6em;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 1.5rem;
         display: block;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+        border: rgba(223, 215, 215, 0.8) 1px solid;
     }
-
-    /* Style the hamburger menu */
     .section-6-quicklinks-img {
-        /* background: black; */
         display: block;
         position: absolute;
         right: 2vw;
-        top: 4vw;
+        top: 18.5vw;
         width: 5%;
     }
     #section-6-topfunded-img {
         display: block;
         position: absolute;
         right: 2vw;
-        top: 94px;
+        top: 152px;
         width: 5%;
     }
     #section-6-reources-img {
         display: block;
         position: absolute;
         right: 2vw;
-        top: 171px;
+        top: 235px;
         width: 5%;
     }
-
-    /* Add a grey background color on mouse-over */
-    /* .section-6-secondary-container-mobile a:hover {
-        background-color: #ddd;
-        color: black;
-    } */
-
-    /* Style the active link (or home/logo) */
     .active-mobile {
-        background-color: #4caf50;
-        color: white;
+        background-color: white;
+        color: black;
+    }
+    .section-6-contact-container {
+        /* background-color: teal; */
+        margin-top: 3em;
+        margin-bottom: 4em;
+    }
+
+    .section-6-contact-secondary-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        /* background-color: steelblue; */
+    }
+    .section-6-download-img-div img {
+        width: 100%;
+    }
+    .section-6-download-img-div {
+        display: flex;
+        flex-direction: row !important;
+        justify-content: center;
+    }
+    .section-6-contact-secondary-container div:first-child {
+        /* background-color: royalblue; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-6-contact-secondary-container div:nth-child(2) {
+        /* background-color: seagreen; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-6-contact-container div:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-6-contact-secondary-container h3,
+    .section-6-contact-container div:nth-child(2) h3 {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+        font-size: 1.5rem;
+        font-weight: 200;
+        margin-bottom: 0.5em;
+    }
+    .section-6-contact-secondary-container div p a {
+        text-decoration: none;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+        color: #646464;
+        font-size: 1rem;
+        font-weight: lighter;
     }
     /* Footer */
 
@@ -871,8 +926,6 @@ footer {
         display: flex;
         justify-content: center;
         align-content: center;
-        /* background-color: teal; */
-        /* min-width: 300px; */
     }
     .footer-contents-div p {
         padding: 2em 0 2em 0;
