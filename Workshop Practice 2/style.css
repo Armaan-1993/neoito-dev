@@ -15,14 +15,14 @@ img {
 
 /* Nav Bar */
 
-nav {
+/* nav {
     background-color: greenyellow;
     padding: 2em 0 2em 0;
 }
 .nav-secondary-container {
-    display: flex;
-    /* background-image: url(img/BG/bg-2.svg); */
-    flex-flow: wrap;
+    display: flex; */
+/* background-image: url(img/BG/bg-2.svg); */
+/* flex-flow: wrap;
     height: auto;
 }
 .nav-secondary-container div:first-child {
@@ -57,4 +57,4 @@ nav {
 .nav-secondary-container div:nth-child(2) ul li:first-child a {
     border-bottom: 2px #ff5b91 solid;
     padding-bottom: 0.75em;
-}
+} */
