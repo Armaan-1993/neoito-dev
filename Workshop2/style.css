@@ -28,6 +28,9 @@ nav {
     min-height: 900px;
     height: auto;
 }
+.nav-secondary-container {
+    padding-top: 1.5em;
+}
 .nav-secondary-container div:first-child {
     width: 40%;
     /* background-color: darkgreen; */
@@ -59,4 +62,40 @@ nav {
 .btn:hover:hover {
     border-bottom: 0.25em #ff5b91 solid;
     padding-bottom: 1em;
+}
+
+.nav-details-container {
+    width: 60%;
+    margin: 13em 0 0 11em;
+}
+.nav-details-container h2 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 5rem;
+    color: white;
+    font-weight: 700;
+    padding-bottom: 0.3em;
+}
+.nav-details-container p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 1rem;
+    color: white;
+    font-weight: 500;
+    padding-bottom: 1.5em;
+}
+.nav-details-container button {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 1rem;
+    color: white;
+    font-weight: 500;
+    width: 25%;
+    background-color: #ff5b91;
+    border-radius: 2em;
+    padding: 1em 0 1em 0;
+    border: none;
+}
+.nav-btn:hover {
+    background-color: #db94ac;
 }
