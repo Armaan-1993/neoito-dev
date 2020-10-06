@@ -10,92 +10,111 @@ img {
 .main-container {
     width: 80%;
     margin: 0 auto;
-    background-color: tomato;
+    /* background-color: blueviolet; */
 }
 
 /* Nav Bar */
-
-nav {
-    /* background-color: cyan; */
-    height: auto;
-}
-.bg-img {
+.nav-bg-img {
     background-image: url(img/BG/imageedit_12_6999483651.png);
-    /* background-repeat: no-repeat; */
-    background-color: rgb(29, 17, 48);
-    /* filter: blur(8px);
-  -webkit-filter: blur(8px); */
-    min-height: 900px;
+    min-height: 56.25em;
+    background-color: rgb(35, 35, 37);
     height: auto;
 }
 .nav-secondary-container {
-    padding-top: 1.5em;
+    padding-top: 2em;
 }
 .nav-secondary-container div:first-child {
     width: 40%;
-    /* background-color: darkgreen; */
-    min-width: 300px;
-}
-.nav-secondary-container div:nth-child(2) {
-    /* background-color: darkorange; */
+    /* background-color: tomato; */
+    min-width: 200px;
 }
 .nav-secondary-container div:first-child img {
     width: 40%;
 }
+.nav-secondary-container div:nth-child(2) {
+    width: 60%;
+    /* background-color: greenyellow; */
+}
 .nav-secondary-container div:nth-child(2) ul {
-    /* background-color: darksalmon; */
     list-style-type: none;
-    padding-top: 0.5em;
-    height: auto;
 }
 .nav-secondary-container div:nth-child(2) ul li {
-    padding: 0 1.5em 0 1.5em;
-    height: auto;
+    padding-bottom: 1em;
 }
 .nav-secondary-container div:nth-child(2) ul li a {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
         sans-serif;
-    font-size: 1rem;
-    color: white;
+    color: #ffff;
+    font-size: 1.3rem;
     text-decoration: none;
 }
-.btn:hover:hover {
-    border-bottom: 0.25em #ff5b91 solid;
-    padding-bottom: 1em;
+.nav-btn1:hover {
+    border-bottom: 0.3em #ff5b91 solid;
 }
-
 .nav-details-container {
-    width: 60%;
-    margin: 13em 0 0 11em;
+    margin-top: 18em;
 }
 .nav-details-container h2 {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-        sans-serif;
-    font-size: 5rem;
-    color: white;
-    font-weight: 700;
-    padding-bottom: 0.3em;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif, sans-serif;
+    color: #ffff;
+    font-size: 6.5rem;
+    font-weight: bold;
+    margin-bottom: 0.3em;
 }
 .nav-details-container p {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
         sans-serif;
-    font-size: 1rem;
-    color: white;
-    font-weight: 500;
-    padding-bottom: 1.5em;
+    color: #ffff;
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin-bottom: 2em;
 }
 .nav-details-container button {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
         sans-serif;
-    font-size: 1rem;
-    color: white;
-    font-weight: 500;
-    width: 25%;
+    color: #ffff;
+    font-size: 1.5rem;
+    font-weight: 200;
     background-color: #ff5b91;
-    border-radius: 2em;
+    border-radius: 50px;
     padding: 1em 0 1em 0;
+    width: 20%;
     border: none;
 }
-.nav-btn:hover {
-    background-color: #db94ac;
+.nav-btn2:hover {
+    background-color: #dd84a1;
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 10px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .nav-details-container {
+        margin-top: 6em;
+    }
+    .nav-details-container h2 {
+        font-size: 3.5rem;
+        font-weight: bold;
+        margin-bottom: 0.75em;
+    }
+    .nav-details-container p {
+        font-size: 2rem;
+        font-weight: 200;
+        margin-bottom: 2em;
+    }
+    .nav-bg-img {
+        min-height: 56.25em;
+        background-color: rgb(35, 35, 37);
+        height: auto;
+    }
+    .nav-details-container button {
+        padding: 1em 0 1em 0;
+        width: 75%;
+    }
+    .nav-secondary-container div:first-child img {
+        width: 70%;
+    }
 }
