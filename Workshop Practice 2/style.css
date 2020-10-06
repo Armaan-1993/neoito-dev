@@ -16,21 +16,31 @@ img {
 /* Nav Bar */
 
 nav {
-    background-color: cyan;
+    /* background-color: cyan; */
+    height: auto;
+}
+.bg-img {
+    background-image: url(img/BG/imageedit_12_6999483651.png);
+    /* background-repeat: no-repeat; */
+    background-color: rgb(29, 17, 48);
+    /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+    min-height: 900px;
+    height: auto;
 }
 .nav-secondary-container div:first-child {
     width: 40%;
-    background-color: darkgreen;
+    /* background-color: darkgreen; */
     min-width: 300px;
 }
 .nav-secondary-container div:nth-child(2) {
-    background-color: darkorange;
+    /* background-color: darkorange; */
 }
 .nav-secondary-container div:first-child img {
     width: 40%;
 }
 .nav-secondary-container div:nth-child(2) ul {
-    background-color: darksalmon;
+    /* background-color: darksalmon; */
     list-style-type: none;
     padding-top: 0.5em;
     height: auto;
