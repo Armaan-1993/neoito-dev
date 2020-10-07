@@ -40,9 +40,9 @@ img {
     list-style-type: none;
     padding-top: 0.5em;
 }
-/* .nav-secondary-container div:nth-child(2) ul li {
-    padding-bottom: 1em;
-} */
+.nav-secondary-container div:nth-child(2) ul li {
+    min-height: 3em;
+}
 .nav-secondary-container div:nth-child(2) ul li a {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
         sans-serif;
@@ -102,7 +102,7 @@ img {
     color: #2a353b;
     font-size: 3rem;
     font-weight: 600;
-    min-height: 80px;
+    min-height: 2em;
     margin-bottom: 0.5em;
 }
 .section-1-secondary-container h2:hover {
@@ -115,12 +115,38 @@ img {
     font-weight: 400;
     margin-bottom: 0.3em;
 }
+
+/* Section 2 */
+
+.section-2-secondary-container div div img {
+    width: 8%;
+}
+.section-2-poster-img {
+    width: 4% !important;
+}
+.section-2-secondary-container div div h3 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif, sans-serif;
+    color: #2a353b;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+/* .section-2-img-div {
+    border: 1px black soild;
+    background-color: hotpink;
+    width:;
+    
+} */
+
 /* Media Query */
 
 @media screen and (max-width: 600px) {
     html {
         font-size: 10px;
     }
+
+    /* Nav */
+
     .nav-details-container {
         margin-top: 6em;
     }
@@ -145,5 +171,17 @@ img {
     }
     .nav-secondary-container div:first-child img {
         width: 70%;
+    }
+
+    /* Section 1 */
+    .section-1-secondary-container h2 {
+        font-size: 3rem;
+        min-height: 2em;
+        margin-bottom: 0.5em;
+    }
+    .section-1-secondary-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
