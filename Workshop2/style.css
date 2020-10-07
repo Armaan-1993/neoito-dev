@@ -102,16 +102,19 @@ img {
     color: #2a353b;
     font-size: 3rem;
     font-weight: 600;
-    margin-bottom: 0.3em;
+    min-height: 80px;
+    margin-bottom: 0.5em;
+}
+.section-1-secondary-container h2:hover {
+    border-bottom: 0.1em #ff5b91 solid;
 }
 .section-1-secondary-container p {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
-    color: #2a353b;
+    color: #586b75;
     font-size: 1.3rem;
     font-weight: 400;
     margin-bottom: 0.3em;
 }
-
 /* Media Query */
 
 @media screen and (max-width: 600px) {
