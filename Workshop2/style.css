@@ -90,6 +90,28 @@ img {
     background-color: #dd84a1;
 }
 
+/* Section */
+
+.section-1-secondary-container {
+    margin-top: 6em;
+}
+
+.section-1-secondary-container h2 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif, sans-serif;
+    color: #2a353b;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 0.3em;
+}
+.section-1-secondary-container p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+    color: #2a353b;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 0.3em;
+}
+
 /* Media Query */
 
 @media screen and (max-width: 600px) {
