@@ -118,25 +118,116 @@ img {
 
 /* Section 2 */
 
-.section-2-secondary-container div div img {
-    width: 8%;
-}
-.section-2-poster-img {
-    width: 4% !important;
-}
+/* .section-2-secondary-container div div img {
+    width: 100%;
+} */
 .section-2-secondary-container div div h3 {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
         "Lucida Sans Unicode", Geneva, Verdana, sans-serif, sans-serif;
     color: #2a353b;
     font-size: 1.5rem;
     font-weight: bold;
+    margin: 1em 0 1em 0;
 }
-/* .section-2-img-div {
-    border: 1px black soild;
-    background-color: hotpink;
-    width:;
-    
-} */
+.section-2-secondary-container div div p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+    color: #586b75;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 0.3em;
+}
+.section-2-row-1 {
+    margin-top: 5em;
+}
+
+.section-2-row-2 {
+    margin-top: 5em;
+}
+.col-div1,
+.col-div2,
+.col-div3,
+.col-div4,
+.col-div5,
+.col-div6 {
+    border: 3px #e7e7e7 solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5em;
+}
+.col-div1,
+.col-div2,
+.col-div3,
+.col-div4,
+.col-div5,
+.col-div6 :hover {
+    color: #ff5b91;
+}
+.img-div1 {
+    width: 17%;
+    /* border: 1px black solid; */
+    border-radius: 50%;
+    padding: 1.1em;
+    background-color: #fde0e2;
+}
+.img-div1 img {
+    width: 100%;
+    margin: 0 auto;
+}
+.img-div2 {
+    width: 17%;
+    border-radius: 50%;
+    padding: 1.7em;
+    background-color: #fde0e2;
+}
+.img-div2 img {
+    width: 53%;
+    margin: 0 auto;
+}
+.img-div3 {
+    width: 17%;
+    /* border: 1px black solid; */
+    border-radius: 50%;
+    padding: 1.1em;
+    background-color: #fde0e2;
+}
+.img-div3 img {
+    width: 100%;
+    margin: 0 auto;
+}
+.img-div4 {
+    width: 17%;
+    /* border: 1px black solid; */
+    border-radius: 50%;
+    padding: 1.1em;
+    background-color: #fde0e2;
+}
+.img-div4 img {
+    width: 100%;
+    margin: 0 auto;
+}
+.img-div5 {
+    width: 18%;
+    border-radius: 50%;
+    padding: 1.9em;
+    background-color: #fde0e2;
+}
+.img-div5 img {
+    width: 100%;
+    margin: 0 auto;
+}
+.img-div6 {
+    width: 17%;
+    /* border: 1px black solid; */
+    border-radius: 50%;
+    padding: 1.1em;
+    background-color: #fde0e2;
+}
+.img-div6 img {
+    width: 100%;
+    margin: 0 auto;
+}
 
 /* Media Query */
 
