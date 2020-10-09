@@ -341,6 +341,9 @@ img {
     font-weight: 400;
     margin-bottom: 0.3em;
 }
+
+/* Section 7 */
+
 /* Media Query */
 
 @media screen and (max-width: 600px) {
