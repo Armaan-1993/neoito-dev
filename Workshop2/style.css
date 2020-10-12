@@ -685,6 +685,18 @@ img {
 .section-16-secondary-container h2:hover {
     border-bottom: 3px #ff5b91 solid;
 }
+
+/* Section 17 */
+
+.section-17-contents-div-1 {
+    width: 80%;
+}
+.section-17-contents-div-2 {
+    width: 20%;
+}
+.section-17-contents-div-2 img {
+    width: 7%;
+}
 /* Media Query */
 
 @media screen and (max-width: 600px) {
