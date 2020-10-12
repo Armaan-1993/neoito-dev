@@ -454,6 +454,7 @@ img {
 
 .section-9-secondary-container {
     margin-top: 2em;
+    min-height: 30em;
 }
 .section-9-contents-div-1 {
     width: 20%;
@@ -484,6 +485,33 @@ img {
     box-shadow: 0px 3px 7px 2px #888;
 }
 
+/* Section 10 */
+/* .section-10-secondary-container {
+    margin-top: 3em;
+} */
+.section-10 {
+    background-color: #ff5b91;
+    padding: 8em 0 8em 0;
+}
+.section-10-contents-div img {
+    width: 25%;
+}
+.section-10-contents-div {
+    border: 1px white dotted;
+    padding: 2em 0 2em 0;
+}
+.section-10-contents-div h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+}
+.section-10-contents-div p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+}
 /* Media Query */
 
 @media screen and (max-width: 600px) {
