@@ -785,11 +785,36 @@ img {
 .footer-secondary-container div:first-child ul li {
     padding: 1em;
 }
+.footer-secondary-container div:first-child ul li:first-child a {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+    color: #5a5c5d;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.footer-secondary-container div:first-child ul li:nth-child(2) a {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+    color: #ff7718;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
 .footer-secondary-container div:nth-child(2) ul {
     list-style-type: none;
 }
 .footer-secondary-container div:nth-child(2) ul li {
     padding: 1em;
+}
+.footer-secondary-container div:nth-child(2) ul li a {
+    text-decoration: none;
+    color: #5a5c5d;
+}
+footer {
+    margin-top: 3em;
+    padding: 3em 0 1em 0;
+}
+.footer-secondary-container div:first-child,
+.footer-secondary-container div:nth-child(2) {
+    min-width: 400px;
 }
 /* Media Query */
 
