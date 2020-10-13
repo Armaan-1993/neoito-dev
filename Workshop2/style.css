@@ -631,6 +631,7 @@ img {
 .section-15-contents-div {
     width: 31%;
     margin: 0 1% 0 1%;
+    min-width: 300px;
 }
 .section-15-contents-div div h4 {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
@@ -697,6 +698,7 @@ img {
 .section-17-contents-div-2 img {
     width: 7%;
 }
+
 /* Media Query */
 
 @media screen and (max-width: 600px) {
@@ -800,5 +802,10 @@ img {
     /* Section 11 */
     .section-11 {
         display: none;
+    }
+    .section-15-secondary-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
