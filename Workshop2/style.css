@@ -1012,6 +1012,8 @@ footer {
     .footer-secondary-container div:first-child,
     .footer-secondary-container div:nth-child(2) {
         width: 100%;
+        display: flex;
+        justify-content: center;
     }
     .footer-secondary-container {
         display: flex;
