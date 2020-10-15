@@ -60,7 +60,7 @@ body {
     padding: 0.3em 1em 0.3em 1em;
 }
 .nav-1-ul li:nth-child(4) select {
-    background-color: #dffdf4;
+    background: #dffdf4;
     border: none;
     outline-style: none;
 }
@@ -532,42 +532,33 @@ body {
 }
 
 /* Footer */
-
 .footer-secondary-container {
     display: flex;
-    flex-flow: wrap;
-    height: auto;
+}
+.footer-img-div img {
+    width: 150%;
+}
+.footer-img-div {
+    width: 50%;
+}
+.footer-img-div ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-img-div ul li {
+    padding: 1em;
 }
 .footer-contents-div {
     width: 50%;
     display: flex;
-    justify-content: center;
-    /* background-color: teal; */
-    min-width: 300px;
-}
-.footer-contents-div p {
+    align-items: center;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
         sans-serif;
     color: #646464;
     font-size: 1rem;
-    font-weight: lighter;
 }
-.footer-img-div {
-    width: 50%;
-    display: flex;
-    justify-content: flex-end;
-    /* background-color: yellowgreen; */
-    min-width: 300px;
-}
-.footer-img-div ul {
-    display: flex;
-    list-style-type: none;
-    /* background-color: yellow; */
-    align-items: center;
-}
-.footer-img-div ul li {
-    padding: 0 0.5em 0 0.5em;
-}
+
 footer {
     /* background-color: tomato; */
     padding: 0.75em 0 0.75em 0;
@@ -923,29 +914,27 @@ footer {
 
     .footer-secondary-container {
         display: flex;
-        flex-flow: wrap;
         flex-direction: column-reverse;
+        align-items: center;
     }
-    .footer-contents-div {
-        width: 50%;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-    }
-    .footer-contents-div p {
-        padding: 2em 0 2em 0;
+    .footer-img-div img {
+        width: 150%;
     }
     .footer-img-div {
-        width: 50%;
+        width: 100%;
         display: flex;
         justify-content: center;
-        /* background-color: yellowgreen; */
     }
-    .footer-img-div ul {
+
+    .footer-img-div ul li {
+        padding: 2em;
+    }
+    .footer-contents-div {
+        width: 100%;
+        min-width: 200px;
+        font-size: 1.3rem;
         display: flex;
-        list-style-type: none;
-        padding-top: 2em;
-        /* background-color: tomato; */
+        justify-content: center;
     }
 }
 
