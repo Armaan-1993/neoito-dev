@@ -1,3 +1,5 @@
+//Carousel 
+
 $(document).ready(function() {
   $("#myCarousel").on("slide.bs.carousel", function(e) {
     var $e = $(e.relatedTarget);
