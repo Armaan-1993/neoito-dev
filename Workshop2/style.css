@@ -890,6 +890,7 @@ footer {
         display: block;
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
             sans-serif;
+        font-weight: bold;
     }
     /* Style the hamburger menu */
     .topnav a.icon {
@@ -1067,6 +1068,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 100%;
+        margin-top: 2em;
     }
     .section-17-contents-div-1 div:nth-child(3) input {
         width: 100% !important;
