@@ -16,7 +16,27 @@ function myFunction() {
   }
 } 
 
+
 // let x = document.getElementById("myLinks");
+// let y = document.getElementById("openimg");
+// let z = document.getElementById("closeimg");
+// document.getElementById("openimg").addEventListener("click", openFunction)
+// document.getElementById("closeimg").addEventListener("click", closeFunction)
+
+// function openFunction (e) {
+//   if(x.style.display === "none") {
+//     y.style.display = "block";
+//     z.style.display = "none"
+//   } else {
+//     x.style.display = "block"
+//     y.style.display = "none";
+//     z.style.display = "block"
+//   }
+// e.preventDefault();
+// }
+
+
+
 
 
 

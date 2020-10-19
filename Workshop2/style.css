@@ -894,7 +894,7 @@ footer {
         top: 3vw;
         width: 18%;
     }
-    .topnav a.icon img:nth-child(2) {
+    .closeimg {
         display: none;
     }
     .active {
