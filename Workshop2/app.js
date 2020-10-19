@@ -2,11 +2,17 @@
 
 function myFunction() {
   var x = document.getElementById("myLinks");
-  
+  let y = document.getElementById("openimg");
+  let z = document.getElementById("closeimg");
   if (x.style.display === "block") {
     x.style.display = "none";
+    y.style.display = "block"
+    z.style.display = "none"
+
   } else {
     x.style.display = "block";
+    y.style.display = "none"
+    z.style.display = "block"
   }
 } 
 
