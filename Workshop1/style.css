@@ -686,6 +686,10 @@ footer {
     .section-1-contents-div {
         justify-content: flex-start;
     }
+    .section-1-img-div {
+        display: none;
+        visibility: hidden;
+    }
 
     /* Section 2 */
     .section-2-secondary-container {
